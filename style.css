@@ -1,0 +1,81 @@
+
+.col-7 img {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.col-5 img {
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+.btnA {
+    background-color: #092642 !important;
+    color: white !important;
+    width: 75% !important;
+}
+
+.flogo {
+    width: 25px !important;
+}
+
+.wFace {
+    margin-left: 120px !important;
+    margin-top: 58px !important;
+    text-decoration: none !important;
+    color: #1b3a5b !important;
+}
+
+.login-box {
+    padding: 40px 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.login-box input {
+    border: 1px solid #333;
+    color: white;
+}
+
+.login-box input::placeholder {
+    color: #999;
+}
+
+.login-box .btn-primary {
+    background-color: #0095f6;
+    border: none;
+}
+
+.login-box a {
+    text-decoration: none;
+    color: #0095f6;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0;
+    color: #aaa;
+}
+
+.divider::before, .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #333;
+}
+
+.divider::before {
+    margin-right: .5em;
+}
+
+.divider::after {
+    margin-left: .5em;
+}
+
+@media (max-width: 500px) {
+    .container .col-lg-7 {
+        display: none !important;
+    }
+}
